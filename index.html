@@ -5,16 +5,18 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Adding descriptive title allowing for search engine optimization -->
-    <title>Horiseon: Search Engine Optimization, Online Reputation Optimization, and Social Media Marketing</title>
+    <title>Horiseon: Marketing Page</title>
 </head>
 <!-- right-click the document and 'format document' in order to improve the legibility -->
 
 <body>
-    <div class="header">
+    <!-- renamed the div to header -->
+    <header class="header">
         <!-- Consolidating the CSS page and removing obselete 'seo class' -->
         <!-- creating a more cohesive and complete title -->
         <h1>Horiseon</h1>
-        <div>
+        <!-- renamed the div to nav -->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -26,13 +28,15 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
-    <!-- adding a title to the background image to allow descriptive information to still be translated while keeping the original css elements intact -->
-    <div class="hero"><title>Coworkers working in collaboration in an office setting</title></div>
-    <div class="content">
+        </nav>
+
+    </header>
+    <div class="hero"></div>
+    <!-- renamed the div to main -->
+    <main class="content">
         <!-- add ID tag "search engine optimization link on header so when clicked it brings you to the corresponding section" -->
-        <div class="search-engine-optimization" id="search-engine-optimization">
+        <!-- replacing div with section -->
+        <section class="search-engine-optimization" id="search-engine-optimization">
             <!-- adding alt tag to the image source in order to make the image more accessible to visually impaired users -->
             <img src="./assets/images/search-engine-optimization.jpg"
                 alt="image of search engine optimization diagram highlighting it's different attributes"
@@ -44,8 +48,9 @@
                 travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase
                 your visibility and find the right customers for your business.
             </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
+        </section>
+          <!-- replacing div with section -->
+        <section id="online-reputation-management" class="online-reputation-management">
             <!-- adding alt tag to the image source in order to make the image more accessible to visually impaired users -->
             <img src="./assets/images/online-reputation-management.jpg"
                 alt="image of someone looking at their laptop referencing their online reputation increasing"
@@ -57,8 +62,9 @@
                 internet connection to say whatever they want about your business. Online Reputation Management gives
                 you the control over what potential customers see when they search for your business.
             </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
+        </section>
+          <!-- replacing div with section -->
+        <section id="social-media-marketing" class="social-media-marketing">
             <!-- adding alt tag to the image source in order to make the image more accessible to visually impaired users -->
             <img src="./assets/images/social-media-marketing.jpg"
                 alt="image illustrating multiple platforms of social media demonstrating diversification"
@@ -70,10 +76,12 @@
                 determine which platforms are suited to your brand, using analytics to find the right markets and
                 increase your lead generation.
             </p>
-        </div>
-    </div>
-    <div class="benefits">
-        <div class="benefit-lead">
+        </section>
+    </main>
+    <!-- replaced div with aside for the sidebar of content -->
+    <aside class="benefits">
+        <!-- replace div with section -->
+        <section class="benefit-lead">
             <h3>Lead Generation</h3>
             <!-- adding alt tag to the image source in order to make the image more accessible to visually impaired users -->
             <img src="./assets/images/lead-generation.png"
@@ -83,8 +91,9 @@
                 Inbound strategies for lead generation require less work for your business, bringing customers directly
                 to your website.
             </p>
-        </div>
-        <div class="benefit-brand">
+        </section>
+          <!-- replacing div with section -->
+        <section class="benefit-brand">
             <h3>Brand Awareness</h3>
             <!-- adding alt tag to the image source in order to make the image more accessible to visually impaired users -->
             <img src="./assets/images/brand-awareness.png"
@@ -94,8 +103,9 @@
                 Users find your business through paid and organic searches, increasing the search ranking and visibility
                 for your business.
             </p>
-        </div>
-        <div class="benefit-cost">
+        </section>
+          <!-- replacing div with section -->
+        <section class="benefit-cost">
             <h3>Cost Management</h3>
             <!-- adding alt tag to the image source in order to make the image more accessible to visually impaired users -->
             <img src="./assets/images/cost-management.png"
@@ -105,14 +115,15 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer
                 need to advertise your page.
             </p>
-        </div>
-    </div>
-    <div class="footer">
+        </section>
+    </aside>
+    <!-- replace dive with footer -->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2023 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
